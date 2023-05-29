@@ -39,6 +39,9 @@ h2 {
   padding: 12px 30px;
   border-radius: 4px;
 }
+.about-section .btn-primary {
+  margin: 18px 0;
+}
 
 p {
   font-family: var(--main-font);
@@ -71,6 +74,28 @@ p {
   padding: 0 70px 0 0;
   line-height: 30px;
 }
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85px;
+  font-family: var(--secondary-font);
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-text {
+  margin: 30px;
+}
+.about-section img {
+  border-radius: 15px;
+}
+.bottom-section {
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   body {
     text-align: center;
@@ -86,5 +111,16 @@ p {
   }
   .title {
     font-size: 50px;
+  }
+  .about-section img {
+    height: 300px;
+    width: 300px;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .about-section {
+    padding-top: 0;
   }
 }
