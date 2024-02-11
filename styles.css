@@ -95,6 +95,16 @@ p {
 .bottom-section {
   text-align: center;
 }
+.content-container-text h3 {
+  text-align: center;
+  font-size: 24px;
+  font-family: var(--main-font);
+  margin-top: 15px;
+  font-weight: bolder;
+}
+.work p {
+  font-size: 14px;
+}
 
 @media (max-width: 960px) {
   body {
