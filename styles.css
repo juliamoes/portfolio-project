@@ -105,6 +105,9 @@ p {
 .work p {
   font-size: 14px;
 }
+.content-container p {
+  text-align: center;
+}
 
 @media (max-width: 960px) {
   body {
