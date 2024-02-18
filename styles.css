@@ -108,6 +108,11 @@ p {
 .content-container p {
   text-align: center;
 }
+.nav-item {
+  font-size: 16px;
+  font-family: var(--main-font);
+  font-weight: 500;
+}
 
 @media (max-width: 960px) {
   body {
