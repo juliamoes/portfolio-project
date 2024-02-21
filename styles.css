@@ -92,8 +92,11 @@ p {
 .content-container img {
   border-radius: 15px;
 }
-.bottom-section {
+footer {
   text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
 }
 .content-container-text h3 {
   text-align: center;
@@ -112,6 +115,31 @@ p {
   font-size: 16px;
   font-family: var(--main-font);
   font-weight: 500;
+}
+.bottom-section {
+  background-color: #f9f7fe;
+}
+.bottom-info {
+  font-family: var(--secondary-font);
+  font-size: 48px;
+  font-weight: 700;
+}
+.email {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 24px;
+}
+i {
+  color: #6c63ff;
+  font-size: 18px;
+}
+.icon {
+  background-color: #f9f7fe;
+  margin: 20px;
+  border-radius: 50%;
+}
+.icons {
+  display: inline-flex;
 }
 
 @media (max-width: 960px) {
